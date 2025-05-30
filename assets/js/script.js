@@ -2,13 +2,21 @@
 // const { act } = require("react");
 
 $(function () {
-  // Toggle navbar background on scroll
+  // Show "Go to Top" button when scrolling down or up, hide only at top
   $(window).on("scroll", function () {
-    const scrolled = $(this).scrollTop() > 50;
+    const scrollTop = $(this).scrollTop();
+    const scrolled = scrollTop > 50;
     $(".navbar")
       .toggleClass("scrolled", scrolled)
       .toggleClass("transparent", !scrolled);
-    $("#goTopBtn").fadeToggle(scrolled);
+
+    if (scrollTop > 0) {
+      // Show button when not at top
+      $("#goTopBtn").fadeIn();
+    } else {
+      // Hide button at top
+      $("#goTopBtn").fadeOut();
+    }
   });
 
   // Go to top button click handler
