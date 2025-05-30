@@ -23,9 +23,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top transparent">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#"
-          >Hong <span class="main-color">Lyher</span></a
-        >
+        <a class="navbar-brand text-white" href="#">
+          Hong <span class="text-gradient">Lyher</span>
+        </a>
         <button
           class="navbar-toggler btn-dark text-white"
           type="button"
@@ -56,9 +56,9 @@
       </div>
     </nav>
 
-    <!-- Sample Content -->
-   <div class="container-fluid p-0 m-0">
-    <div class="content">
+    <!-- Main Content -->
+    <div class="container-fluid p-0 m-0">
+      <div class="content">
         <div class="d-flex justify-content-center align-items-center h-100 p-5">
           <img
             data-aos="fade-up"
@@ -69,20 +69,121 @@
           />
         </div>
       </div>
-      <div class="">
-        <div class="container p-5" id="about">
-            <h2 class="text-center fw-bold">About Me</h2>
-            <p class="text-center">✨ Let Me Introduce Myself ✨</p>
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Hello, I'm</h2>
-                    <h1>Hong Lyher</h1>
+      <div class="bg-dark py-5">
+        <div class="container p-4 p-lg-5" id="about">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="text-center mb-5"
+          >
+            <h2 class="fw-bold text-gradient">About Me</h2>
+            <p class="text-light">✨ Let Me Introduce Myself ✨</p>
+          </div>
+          <div class="row g-5 justify-content-center align-items-center">
+            <div
+              class="col-12 col-lg-6 order-2 order-lg-1"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h2 class="lh-sm fw-bold text-gradient">Hello, I'm</h2>
+              <h1 class="fw-bold text-light">H<span id="typedText"></span></h1>
+              <p class="text-light text-justify">
+                I was born in Phnom Penh, Cambodia, and now live in Kompong
+                Speu. I’m a student, developer, and graphic designer. I’m also
+                the founder of AKATSUKI, a Minecraft server, and KODE Sahakom, a
+                tech community. Both projects were created to support Cambodian
+                youth through fun and learning in technology.
+              </p>
+              <div class="py-2">
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-stretch w-100 gap-3"
+                >
+                  <a
+                    href="#"
+                    class="download-cv me-sm-3 mb-2 mb-sm-0 text-center"
+                  >
+                    <i class="bi bi-download"></i> Download CV
+                  </a>
+                  <a href="#" class="view-project text-center">
+                    <i class="bi bi-code-slash"></i> View Project
+                  </a>
                 </div>
+              </div>
             </div>
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
+              <div
+                class="d-flex justify-content-center"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="assets/img/me.jpg"
+                  class="w-50 rounded-5"
+                  alt="Portrait of Lyher"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-   </div>
+      <div class="portfolio py-5">
+        <div class="container p-4 p-lg-5">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="text-center mb-5"
+          >
+            <h2 class="text-gradient fw-bold">Portfolio Showcase</h2>
+            <p class="text-light mb-5">
+              <i class="bi bi-briefcase"></i>
+              Projects, certifications, and skills that showcase my work.
+            </p>
+          </div>
+          <!-- Main Category Buttons -->
+          <div class="row text-center mb-3" id="mainCategoryButtons">
+            <div class="col-4">
+              <button class="main-btn active" data-main="project">
+                Project
+              </button>
+            </div>
+            <div class="col-4">
+              <button class="main-btn" data-main="certification">
+                Certification
+              </button>
+            </div>
+            <div class="col-4">
+              <button class="main-btn" data-main="skill">Skill</button>
+            </div>
+          </div>
 
+          <!-- Subcategory Dropdown -->
+          <div class="text-center mb-4">
+            <select id="subCategorySelect" class="form-select-sub-category">
+              <option value="all">All <i class="bi bi-down"></i></option>
+            </select>
+          </div>
+
+          <!-- Portfolio Filters and Container -->
+          <div class="row" id="portfolioContainer"></div>
+        </div>
+      </div>
+    </div>
+<footer class="bg-dark text-light py-4 mt-5 border-top">
+  <div class="container text-center">
+  <p class="mb-1">&copy; 2025 Hong Lyher. All rights reserved.</p>
+  <div>
+    <a href="https://github.com/yourusername" class="text-light me-3" target="_blank" rel="noopener">
+    <i class="bi bi-github"></i>
+    </a>
+    <a href="mailto:your@email.com" class="text-light me-3">
+    <i class="bi bi-envelope"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/yourprofile" class="text-light" target="_blank" rel="noopener">
+    <i class="bi bi-linkedin"></i>
+    </a>
+  </div>
+  </div>
+</footer>
     <!-- Go to Top Button -->
     <button class="btn btn-primary" id="goTopBtn" title="Go to top">↑</button>
 

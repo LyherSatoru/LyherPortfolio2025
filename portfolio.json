@@ -1,0 +1,38 @@
+[
+  {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p1.png",
+    "title": "My Portfolio",
+    "description": "A showcase of my work, skills, and projects.",
+    "demoLink": "https://lyher.netlify.app/",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "game",
+    "image": "assets/img/project/p2.png",
+    "title": "Khla-Khlouk-Game",
+    "description": "Khmer-themed slot machine game.",
+    "demoLink": "https://lyher99.github.io/Khla-Khlouk-Game/",
+    "detailLink": "https://github.com/Lyher99/Khla-Khlouk-Game"
+  },
+  {
+    "mainCategory": "certification",
+    "subCategory": "web",
+    "image": "assets/img/cert/cert1.png",
+    "title": "Web Development Cert",
+    "description": "Certified in web dev.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "design",
+    "image": "assets/img/skill/s1.png",
+    "title": "Graphic Design",
+    "description": "Adobe Photoshop, Illustrator, UI/UX.",
+    "demoLink": "",
+    "detailLink": ""
+  }
+]
