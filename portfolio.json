@@ -28,10 +28,154 @@
   },
   {
     "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/html.jpg",
+    "title": "HTML",
+    "description": "HyperText Markup Language for structuring web content.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/css.jpg",
+    "title": "CSS",
+    "description": "Cascading Style Sheets for styling web pages.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/js.webp",
+    "title": "JavaScript",
+    "description": "High-level scripting language for web development.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/php.webp",
+    "title": "PHP",
+    "description": "Server-side scripting language for web apps.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/laravel.avif",
+    "title": "Laravel",
+    "description": "PHP framework for modern web apps.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/react.png",
+    "title": "React JS",
+    "description": "JavaScript library for building UI components.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/csharp.jpg",
+    "title": "C#",
+    "description": "Microsoft's modern object-oriented language.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/cpp.png",
+    "title": "C++",
+    "description": "General-purpose programming language with OOP features.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/python.png",
+    "title": "Python",
+    "description": "Versatile language used in web, AI, and scripting.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
     "subCategory": "design",
-    "image": "assets/img/skill/s1.png",
-    "title": "Graphic Design",
-    "description": "Adobe Photoshop, Illustrator, UI/UX.",
+    "image": "assets/img/skills/ps.avif",
+    "title": "Photoshop",
+    "description": "Industry-standard image editing software.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "video",
+    "image": "assets/img/skills/capcut.png",
+    "title": "CapCut",
+    "description": "Video editing software for creators.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "design",
+    "image": "assets/img/skills/posterdesign.jpg",
+    "title": "Poster Design",
+    "description": "Creating eye-catching posters for marketing or events.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "design",
+    "image": "assets/img/skills/banner.jpg",
+    "title": "Banner Design",
+    "description": "Designing promotional banners for web or print.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "coding",
+    "image": "assets/img/skills/node.jpg",
+    "title": "Node.js",
+    "description": "JavaScript runtime for backend development.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "system",
+    "image": "assets/img/skills/cpanel.png",
+    "title": "cPanel",
+    "description": "Web hosting control panel for managing servers.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "system",
+    "image": "assets/img/skills/ubuntu.png",
+    "title": "Ubuntu",
+    "description": "Open-source Linux OS for development and deployment.",
+    "demoLink": "",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "skill",
+    "subCategory": "video",
+    "image": "assets/img/skills/video-editor.jpg",
+    "title": "Video Editing",
+    "description": "Creating and editing professional-quality videos.",
     "demoLink": "",
     "detailLink": ""
   }
