@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio Showcase - Hong Lyher's Projects, Certifications, and Skills" />
+    <title>Portfolio - Hong Lyher</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/card.css" rel="stylesheet" />
+    <link href="../assets/css/slide.css" rel="stylesheet" />
+    
+    <!-- Custom Styles -->
+    <style>
+      /* Go to Top Button */
+      .go-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        display: none;
+        z-index: 1000;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+      }
+      .go-to-top:hover {
+        background: rgba(0, 0, 0, 0.8);
+        transform: translateY(-3px);
+        color: #00c6ff;
+      }
+
+      /* Footer */
+      .footer {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      /* Navbar Background */
+      .navbar.transparent {
+        background: transparent;
+      }
+      .navbar.scrolled {
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="../index.html">
+          Hong <span class="text-gradient">Lyher</span>
+        </a>
+        <button class="navbar-toggler btn-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link fw-bold" href="../index.html#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="../index.html#about">About</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="../index.html#showcase">Showcase</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="../index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid p-0 m-0">
+      <section id="portfolio">
+        <div class="portfolio py-5">
+          <div class="container p-4 p-lg-5">
+            <div data-aos="fade-up" data-aos-duration="1000" class="text-center mb-5">
+              <h2 class="text-gradient fw-bold">Portfolio Showcase</h2>
+              <p class="text-light mb-5">
+                <i class="bi bi-briefcase"></i>
+                Projects, certifications, and skills that showcase my work.
+              </p>
+            </div>
+            
+            <!-- Category Filters -->
+            <div class="row text-center mb-3" id="mainCategoryButtons">
+              <div class="col-12 col-sm-4 py-2">
+                <button class="main-btn active" data-main="project">Project</button>
+              </div>
+              <div class="col-12 col-sm-4 py-2">
+                <button class="main-btn" data-main="certification">Certification</button>
+              </div>
+              <div class="col-12 col-sm-4 py-2">
+                <button class="main-btn" data-main="skill">Skill</button>
+              </div>
+            </div>
+
+            <!-- Subcategory Dropdown -->
+            <div class="text-center mb-4">
+              <select id="subCategorySelect" class="form-select-sub-category">
+                <option value="all">All <i class="bi bi-down"></i></option>
+              </select>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="row" id="portfolioContainer"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Go to Top Button -->
+    <button id="goTopBtn" class="go-to-top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="text-light mb-0">&copy; 2024 Hong Lyher. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // Initialize AOS
+      AOS.init();
+
+      // Navigation background handling
+      $(window).on("scroll", function () {
+        const scrollTop = $(this).scrollTop();
+        const scrolled = scrollTop > 50;
+        $(".navbar")
+          .toggleClass("scrolled", scrolled)
+          .toggleClass("transparent", !scrolled);
+
+        // Show/hide go to top button
+        $("#goTopBtn").fadeToggle(scrollTop > 0);
+      });
+
+      // Go to top button click handler
+      $("#goTopBtn").click(function () {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+      });
+
+      // Load portfolio data
+      fetch('../portfolio.json')
+        .then(response => response.json())
+        .then(data => {
+          const portfolioContainer = document.getElementById('portfolioContainer');
+          const subCategorySelect = document.getElementById('subCategorySelect');
+          const mainCategoryButtonsContainer = document.getElementById('mainCategoryButtons');
+          
+          let currentMainCategory = 'project';
+          let currentSubCategory = 'all';
+          
+          // Get unique main categories
+          const mainCategories = new Set(data.map(item => item.mainCategory));
+          
+          // Clear existing buttons
+          mainCategoryButtonsContainer.innerHTML = '';
+          
+          // Add buttons for each main category
+          mainCategories.forEach(category => {
+            const col = document.createElement('div');
+            col.className = 'col-12 col-sm-4 py-2';
+            col.innerHTML = `
+              <button class="main-btn ${category === 'project' ? 'active' : ''}" data-main="${category}">
+                ${category.charAt(0).toUpperCase() + category.slice(1)}
+              </button>
+            `;
+            mainCategoryButtonsContainer.appendChild(col);
+          });
+
+          // Function to update subcategories based on main category
+          function updateSubCategories(mainCategory) {
+            // Clear existing options
+            subCategorySelect.innerHTML = '<option value="all">All <i class="bi bi-down"></i></option>';
+            
+            // Get relevant subcategories based on main category
+            const relevantSubCategories = new Set();
+            data.forEach(item => {
+              if (item.subCategory && (mainCategory === 'all' || item.mainCategory === mainCategory)) {
+                relevantSubCategories.add(item.subCategory);
+              }
+            });
+            
+            // Add options for each relevant subcategory
+            relevantSubCategories.forEach(subCategory => {
+              const option = document.createElement('option');
+              option.value = subCategory;
+              option.textContent = subCategory.charAt(0).toUpperCase() + subCategory.slice(1);
+              subCategorySelect.appendChild(option);
+            });
+            
+            // Reset subcategory selection
+            currentSubCategory = 'all';
+            subCategorySelect.value = 'all';
+          }
+          
+          function filterAndDisplayItems() {
+            const filteredItems = data.filter(item => {
+              const matchesMain = currentMainCategory === 'all' || item.mainCategory === currentMainCategory;
+              const matchesSub = currentSubCategory === 'all' || item.subCategory === currentSubCategory;
+              return matchesMain && matchesSub;
+            });
+            
+            portfolioContainer.innerHTML = '';
+            
+            filteredItems.forEach(item => {
+              const col = document.createElement('div');
+              col.className = 'col-12 col-md-6 col-lg-4 py-3 card-hover';
+              col.setAttribute('data-aos', 'fade-up');
+              col.setAttribute('data-aos-duration', '1000');
+              
+              col.innerHTML = `
+                <div class="portfolio-item p-3 h-100">
+                  <img src="../${item.image}" class="img-fluid rounded" alt="${item.title}">
+                  <h4 class="pt-2 text-light">${item.title}</h4>
+                  <p class="text-light">${item.description}</p>
+                  <div class="d-flex justify-content-between mt-auto">
+                    ${item.demoLink ? `
+                      <a href="${item.demoLink}" target="_blank" rel="noopener" class="card-of-portfolio-demo">
+                        Live Demo <i class="bi bi-box-arrow-up-right ps-1"></i>
+                      </a>
+                    ` : ''}
+                    ${item.detailLink ? `
+                      <a href="${item.detailLink}" target="_blank" rel="noopener" class="card-of-portfolio-details">
+                        Details <i class="bi bi-info-circle ps-1"></i>
+                      </a>
+                    ` : ''}
+                  </div>
+                </div>
+              `;
+              
+              portfolioContainer.appendChild(col);
+            });
+          }
+          
+          // Event listeners
+          const mainCategoryButtons = document.querySelectorAll('.main-btn');
+          mainCategoryButtons.forEach(button => {
+            button.addEventListener('click', () => {
+              mainCategoryButtons.forEach(btn => btn.classList.remove('active'));
+              button.classList.add('active');
+              currentMainCategory = button.dataset.main;
+              updateSubCategories(currentMainCategory);
+              filterAndDisplayItems();
+            });
+          });
+          
+          subCategorySelect.addEventListener('change', (e) => {
+            currentSubCategory = e.target.value;
+            filterAndDisplayItems();
+          });
+          
+          // Initial setup
+          updateSubCategories('project');
+          filterAndDisplayItems();
+        });
+    </script>
+  </body>
+</html>

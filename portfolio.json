@@ -71,6 +71,24 @@
     "demoLink": "https://linunhappy.netlify.app/",
     "detailLink": ""
   },
+            {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p9.png",
+    "title": "Server Pongtea",
+    "description": "A website for the Server Pongtea community.",
+    "demoLink": "https://server-pongtea.vercel.app/",
+    "detailLink": ""
+  },
+            {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p10.png",
+    "title": "Kode Community",
+    "description": "A website for the Kode Community.",
+    "demoLink": "https://kode-community.vercel.app/",
+    "detailLink": ""
+  },
   {
     "mainCategory": "certification",
     "subCategory": "web",

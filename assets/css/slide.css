@@ -1,0 +1,18 @@
+.image-slide-show {
+  border-radius: 50%;
+  /* background-color: rgba(255, 255, 255, 0.446); */
+  display: block;
+  overflow: hidden;
+  width: 25%;
+  margin: auto;
+  border: 5px solid rgba(255, 255, 255, 0.267);
+}
+
+#myRoleCarousel img {
+
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+}

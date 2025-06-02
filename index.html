@@ -3,22 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Hong Lyher's Portfolio - Developer and Graphic Designer" />
     <title>Hong Lyher</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="assets/css/card.css">
+    <link href="assets/css/card.css" rel="stylesheet" />
+    <link href="assets/css/slide.css" rel="stylesheet" />
+    
+    <!-- Custom Styles -->
+    <style>
+      /* Navbar Background */
+      .navbar.transparent {
+        background: transparent;
+      }
+      .navbar.scrolled {
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+      }
+      
+      /* Go to Top Button */
+      #goTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        z-index: 1000;
+        transition: all 0.3s ease;
+      }
+      #goTopBtn:hover {
+        transform: translateY(-3px);
+      }
+    </style>
   </head>
   <body class="bg-dark">
     <!-- Navbar -->
@@ -27,31 +56,15 @@
         <a class="navbar-brand text-white" href="#">
           Hong <span class="text-gradient">Lyher</span>
         </a>
-        <button
-          class="navbar-toggler btn-dark text-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
+        <button class="navbar-toggler btn-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <i class="bi bi-list"></i>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#showcase">Showcase</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#contact">Contact</a>
-            </li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="#showcase">Showcase</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -59,58 +72,35 @@
 
     <!-- Main Content -->
     <div class="container-fluid p-0 m-0">
+      <!-- Home Section -->
       <section id="home">
         <div class="content">
-          <div
-            class="d-flex justify-content-center align-items-center h-100 p-5"
-          >
-            <img
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              src="assets/img/lyher_text.png"
-              class="lyher-text"
-              alt=""
-            />
+          <div class="d-flex justify-content-center align-items-center h-100 p-5">
+            <img data-aos="fade-up" data-aos-duration="1000" src="assets/img/lyher_text.png" class="lyher-text" alt="Hong Lyher" />
           </div>
         </div>
       </section>
+
+      <!-- About Section -->
       <section id="about">
         <div class="bg-dark py-5">
           <div class="container p-4 p-lg-5">
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              class="text-center mb-5"
-            >
+            <div data-aos="fade-up" data-aos-duration="1000" class="text-center mb-5">
               <h2 class="fw-bold text-gradient">About Me</h2>
               <p class="text-light">✨ Let Me Introduce Myself ✨</p>
             </div>
             <div class="row g-5 justify-content-center align-items-center">
-              <div
-                class="col-12 col-lg-6 order-2 order-lg-1"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
+              <div class="col-12 col-lg-6 order-2 order-lg-1" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="lh-sm fw-bold text-gradient">Hello, I'm</h2>
-                <h1 class="fw-bold text-light">
-                  H<span id="typedText"></span>
-                </h1>
+                <h1 class="fw-bold text-light">H<span id="typedText"></span></h1>
                 <p class="text-light text-justify">
-                  I was born in Phnom Penh, Cambodia, and now live in Kompong
-                  Speu. I’m a student, developer, and graphic designer. I’m also
-                  the founder of AKATSUKI, a Minecraft server, and KODE Sahakom,
-                  a tech community. Both projects were created to support
-                  Cambodian youth through fun and learning in technology.
+                  I was born in Phnom Penh, Cambodia, and now live in Kompong Speu. I'm a student, developer, and graphic designer. 
+                  I'm also the founder of AKATSUKI, a Minecraft server, and KODE Sahakom, a tech community. Both projects were 
+                  created to support Cambodian youth through fun and learning in technology.
                 </p>
                 <div class="py-2">
-                  <div
-                    class="d-flex flex-column flex-sm-row align-items-stretch w-100 gap-3"
-                  >
-                    <a
-                      href="assets/pdf/HongLyher.pdf"
-                      class="download-cv me-sm-3 mb-2 mb-sm-0 text-center"
-                      download
-                    >
+                  <div class="d-flex flex-column flex-sm-row align-items-stretch w-100 gap-3">
+                    <a href="assets/pdf/HongLyher.pdf" class="download-cv me-sm-3 mb-2 mb-sm-0 text-center" download>
                       <i class="bi bi-download"></i> Download CV
                     </a>
                     <a href="#showcase" class="view-project text-center">
@@ -120,47 +110,34 @@
                 </div>
               </div>
               <div class="col-12 col-lg-6 order-1 order-lg-2">
-                <div
-                  class="d-flex justify-content-center"
-                  data-aos="fade-left"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="assets/img/me.jpg"
-                    class="w-50 rounded-5"
-                    alt="Portrait of Lyher"
-                  />
+                <div class="d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
+                  <img src="assets/img/me.jpg" class="w-50 rounded-5" alt="Portrait of Lyher" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Showcase Section -->
       <section id="showcase">
         <div class="portfolio py-5">
           <div class="container p-4 p-lg-5">
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              class="text-center mb-5"
-            >
+            <div data-aos="fade-up" data-aos-duration="1000" class="text-center mb-5">
               <h2 class="text-gradient fw-bold">Portfolio Showcase</h2>
               <p class="text-light mb-5">
                 <i class="bi bi-briefcase"></i>
                 Projects, certifications, and skills that showcase my work.
               </p>
             </div>
-            <!-- Main Category Buttons -->
+            
+            <!-- Category Filters -->
             <div class="row text-center mb-3" id="mainCategoryButtons">
               <div class="col-12 col-sm-4 py-2">
-                <button class="main-btn active" data-main="project">
-                  Project
-                </button>
+                <button class="main-btn active" data-main="project">Project</button>
               </div>
               <div class="col-12 col-sm-4 py-2">
-                <button class="main-btn" data-main="certification">
-                  Certification
-                </button>
+                <button class="main-btn" data-main="certification">Certification</button>
               </div>
               <div class="col-12 col-sm-4 py-2">
                 <button class="main-btn" data-main="skill">Skill</button>
@@ -174,66 +151,68 @@
               </select>
             </div>
 
-            <!-- Portfolio Filters and Container -->
+            <!-- Portfolio Grid -->
             <div class="row" id="portfolioContainer"></div>
           </div>
         </div>
       </section>
 
+      <!-- Contact Section -->
       <section id="contact">
         <div class="contact py-5 bg-dark">
           <div class="container p-4 p-lg-5">
-            <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              class="text-center mb-5"
-            >
+            <div data-aos="fade-up" data-aos-duration="1000" class="text-center mb-5">
               <h2 class="text-gradient fw-bold">Contact Me</h2>
               <p class="text-light mb-0">
                 <i class="bi bi-envelope"></i> Let's connect and collaborate!
               </p>
             </div>
-            <div>
+            <div class="row" id="contactCardsContainer" data-aos="fade-up" data-aos-duration="1000"></div>
+          </div>
+        </div>
+      </section>
 
-          <div class="row" id="contactCardsContainer" data-aos="fade-up" data-aos-duration="1000"></div>
+      <!-- Role Section -->
+      <section id="myrole">
+        <div class="myrole py-5">
+          <div class="container p-4 p-lg-5">
+            <div data-aos="fade-up" data-aos-duration="1000" class="text-center mb-5">
+              <h2 class="text-gradient fw-bold">My Role</h2>
+              <p class="text-light mb-0">
+                <i class="bi bi-person"></i> My role in the community.
+              </p>
+            </div>
+            <div id="myRoleCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" id="roleCarouselInner"></div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myRoleCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myRoleCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
       </section>
     </div>
-    <footer class="bg-dark text-light py-4 mt-5 border-top">
+
+    <!-- Footer -->
+    <footer class="footer py-4">
       <div class="container text-center">
-        <p class="mb-1">&copy; 2025 Hong Lyher. All rights reserved.</p>
-        <div>
-          <a
-            href="https://github.com/yourusername"
-            class="text-light me-3"
-            target="_blank"
-            rel="noopener"
-          >
-            <i class="bi bi-github"></i>
-          </a>
-          <a href="mailto:your@email.com" class="text-light me-3">
-            <i class="bi bi-envelope"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/yourprofile"
-            class="text-light"
-            target="_blank"
-            rel="noopener"
-          >
-            <i class="bi bi-linkedin"></i>
-          </a>
-        </div>
+        <p class="text-light mb-0">&copy; 2025 Hong Lyher. All rights reserved.</p>
       </div>
     </footer>
-    <!-- Go to Top Button -->
-    <button class="btn btn-primary" id="goTopBtn" title="Go to top">↑</button>
 
+    <!-- Go to Top Button -->
+    <button id="goTopBtn" class="btn btn-primary" title="Go to top">↑</button>
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
     <script>
       AOS.init();
     </script>

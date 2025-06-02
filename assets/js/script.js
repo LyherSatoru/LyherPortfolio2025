@@ -139,7 +139,7 @@ $(function () {
       $("#portfolioContainer").after(`
         <div class="text-center mt-3" id="portfolioButtonsContainer">
           <button id="showMoreBtn" class="btn btn-primary me-2">Show More</button>
-          <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
+          <a href="page/portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
         </div>
       `);
     } else {
@@ -147,7 +147,7 @@ $(function () {
       // Add View All button
       $("#portfolioContainer").after(`
         <div class="text-center mt-3" id="portfolioButtonsContainer">
-          <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
+          <a href="page/portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
         </div>
       `);
     }
@@ -243,3 +243,48 @@ fetch("cards.json")
   .catch((error) => console.error("Error loading cards.json:", error));
     
   });
+
+
+  // ================ role ================
+
+  fetch('roles.json')
+    .then(response => response.json())
+    .then(roles => {
+      const carouselInner = document.getElementById("roleCarouselInner");
+
+      roles.forEach((role, index) => {
+        const isActive = index === 0 ? "active" : "";
+
+        let buttonHTML = "";
+        if (role.link) {
+          // Use linkType if provided, otherwise default to "Discord"
+          const linkType = role.linkType || "Discord";
+          buttonHTML = `<a href="${role.link}" class="btn btn-primary bg-primary" target="_blank" rel="noopener">${linkType}</a>`;
+        } else {
+          buttonHTML = `<button class="btn btn-secondary" disabled>No Link</button>`;
+        }
+
+        carouselInner.innerHTML += `
+          <div class="carousel-item ${isActive}">
+            <div class="row justify-content-center">
+              <div class="col-md-8 col-lg-6">
+                <div class="h-100 text-center">
+                  <div class="image-slide-show">
+                    <img src="${role.image}" class="card-img-top w-100" alt="${role.title}" />
+                  </div>
+                  <div class="card-body pt-4">
+                    <h5 class="card-title text-light fw-bold">${role.title}</h5>
+                    <p class="card-text">${role.subtitle}</p>
+                    <p class="card-text text-light fst-italic">${role.description}</p>
+                    ${buttonHTML}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+    })
+    .catch(error => {
+      console.error("Error loading roles.json:", error);
+    });

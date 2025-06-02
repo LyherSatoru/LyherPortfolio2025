@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Daun Penh Cloud",
+        "subtitle": "Developer",
+        "description": "Daun Penh Cloud offers cloud services to help your business grow, with secure, modern infrastructure and support.",
+        "image": "assets/img/icon/dp.png",
+        "link": "https://dpdatacenter.com/en/",
+        "linkType": "Website"
+    },
+    {
+        "title": "Akatsuki",
+        "subtitle": "founder",
+        "description": "A Minecraft server from Cambodia, established in 2020, offering a fun and engaging gaming experience.",
+        "image": "https://lyher.netlify.app/img/mine.png",
+        "link": "#",
+        "linkType": "Doscord"
+    },
+    {
+        "title": "Kode Sahakom",
+        "subtitle": "founder",
+        "description": "A Cambodian coding community dedicated to teaching programming and empowering young Cambodians in tech.",
+        "image": "assets/img/icon/kode.jpg",
+        "link": "https://kode-community.vercel.app/",
+        "linkType": "Website"
+    },
+    {
+        "title": "Lyher Pong Tea",
+        "subtitle": "manager",
+        "description": "A Minecraft server from Cambodia, launched in 2025, focused on community and creative gameplay.",
+        "image": "assets/img/icon/pong.png",
+        "link": "https://server-pongtea.vercel.app/",
+        "linkType": "Website"
+    }
+    
+]
