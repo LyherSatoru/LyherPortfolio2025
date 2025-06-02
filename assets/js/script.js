@@ -133,25 +133,23 @@ $(function () {
     });
 
     // Show or hide the "Show More" button
+    // Always remove existing buttons container to prevent duplicates
+    $("#portfolioButtonsContainer").remove();
     if (filtered.length > visibleCount) {
-      if ($("#showMoreBtn").length === 0) {
-        $("#portfolioContainer").after(`
-          <div class="text-center mt-3" id="portfolioButtonsContainer">
-            <button id="showMoreBtn" class="btn btn-primary me-2">Show More</button>
-            <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
-          </div>
-        `);
-      }
+      $("#portfolioContainer").after(`
+        <div class="text-center mt-3" id="portfolioButtonsContainer">
+          <button id="showMoreBtn" class="btn btn-primary me-2">Show More</button>
+          <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
+        </div>
+      `);
     } else {
       $("#showMoreBtn").remove();
-      // Add View All button if not present
-      if ($("#viewAllBtn").length === 0) {
-        $("#portfolioContainer").after(`
-          <div class="text-center mt-3" id="portfolioButtonsContainer">
-            <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
-          </div>
-        `);
-      }
+      // Add View All button
+      $("#portfolioContainer").after(`
+        <div class="text-center mt-3" id="portfolioButtonsContainer">
+          <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
+        </div>
+      `);
     }
   }
 
