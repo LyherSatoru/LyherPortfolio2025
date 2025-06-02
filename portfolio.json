@@ -35,6 +35,42 @@
     "demoLink": "https://belteiedu.netlify.app/",
     "detailLink": ""
   },
+        {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p5.png",
+    "title": "Yutu Web",
+    "description": "Profile website for Yutu, showcasing their work and skills.",
+    "demoLink": "https://yutu-web.vercel.app/",
+    "detailLink": "https://github.com/Lyher99/yutu_web.git"
+  },
+          {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p6.png",
+    "title": "Angkor MC",
+    "description": "A Minecraft server website for Angkor MC.",
+    "demoLink": "https://angkormc.netlify.app/",
+    "detailLink": ""
+  },
+            {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p7.png",
+    "title": "Friendly MC",
+    "description": "A Minecraft server website for Friendly MC.",
+    "demoLink": "https://friendlymc.netlify.app/",
+    "detailLink": ""
+  },
+            {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p8.png",
+    "title": "Lin Unhappy",
+    "description": "A personal website for Lin Unhappy, showcasing their work and interests.",
+    "demoLink": "https://linunhappy.netlify.app/",
+    "detailLink": ""
+  },
   {
     "mainCategory": "certification",
     "subCategory": "web",

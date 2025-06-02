@@ -102,6 +102,7 @@ $(function () {
         `<div class="col-12 text-center text-light">No items found.</div>`
       );
       $("#showMoreBtn").remove(); // Remove button if present
+      $("#viewAllBtn").remove(); // Remove view all button if present
       return;
     }
 
@@ -135,13 +136,22 @@ $(function () {
     if (filtered.length > visibleCount) {
       if ($("#showMoreBtn").length === 0) {
         $("#portfolioContainer").after(`
-          <div class="text-center mt-3">
-            <button id="showMoreBtn" class="btn btn-primary">Show More</button>
+          <div class="text-center mt-3" id="portfolioButtonsContainer">
+            <button id="showMoreBtn" class="btn btn-primary me-2">Show More</button>
+            <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
           </div>
         `);
       }
     } else {
       $("#showMoreBtn").remove();
+      // Add View All button if not present
+      if ($("#viewAllBtn").length === 0) {
+        $("#portfolioContainer").after(`
+          <div class="text-center mt-3" id="portfolioButtonsContainer">
+            <a href="portfolio.html" id="viewAllBtn" class="btn btn-outline-light">View All</a>
+          </div>
+        `);
+      }
     }
   }
 
