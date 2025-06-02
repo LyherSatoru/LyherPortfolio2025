@@ -2,7 +2,7 @@
   {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p1.png",
+    "image": "assets/img/project/p1.webp",
     "title": "My Portfolio",
     "description": "A showcase of my work, skills, and projects.",
     "demoLink": "https://lyher.netlify.app/",
@@ -11,7 +11,7 @@
   {
     "mainCategory": "project",
     "subCategory": "game",
-    "image": "assets/img/project/p2.png",
+    "image": "assets/img/project/p2.webp",
     "title": "Khla-Khlouk-Game",
     "description": "Khmer-themed slot machine game.",
     "demoLink": "https://lyher99.github.io/Khla-Khlouk-Game/",
@@ -20,7 +20,7 @@
     {
     "mainCategory": "project",
     "subCategory": "game",
-    "image": "assets/img/project/p3.png",
+    "image": "assets/img/project/p3.webp",
     "title": "Khmer Card Match Game",
     "description": "A fun card matching game with Khmer themes.",
     "demoLink": "https://lyher99.github.io/Khmer-Card-Match/",
@@ -29,7 +29,7 @@
       {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p4.png",
+    "image": "assets/img/project/p4.webp",
     "title": "Beltie Edu",
     "description": "An educational platform for learning and resources.",
     "demoLink": "https://belteiedu.netlify.app/",
@@ -38,7 +38,7 @@
         {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p5.png",
+    "image": "assets/img/project/p5.webp",
     "title": "Yutu Web",
     "description": "Profile website for Yutu, showcasing their work and skills.",
     "demoLink": "https://yutu-web.vercel.app/",
@@ -47,7 +47,7 @@
           {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p6.png",
+    "image": "assets/img/project/p6.webp",
     "title": "Angkor MC",
     "description": "A Minecraft server website for Angkor MC.",
     "demoLink": "https://angkormc.netlify.app/",
@@ -56,7 +56,7 @@
             {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p7.png",
+    "image": "assets/img/project/p7.webp",
     "title": "Friendly MC",
     "description": "A Minecraft server website for Friendly MC.",
     "demoLink": "https://friendlymc.netlify.app/",
@@ -65,7 +65,7 @@
             {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p8.png",
+    "image": "assets/img/project/p8.webp",
     "title": "Lin Unhappy",
     "description": "A personal website for Lin Unhappy, showcasing their work and interests.",
     "demoLink": "https://linunhappy.netlify.app/",
@@ -74,7 +74,7 @@
             {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p9.png",
+    "image": "assets/img/project/p9.webp",
     "title": "Server Pongtea",
     "description": "A website for the Server Pongtea community.",
     "demoLink": "https://server-pongtea.vercel.app/",
@@ -83,7 +83,7 @@
             {
     "mainCategory": "project",
     "subCategory": "web",
-    "image": "assets/img/project/p10.png",
+    "image": "assets/img/project/p10.webp",
     "title": "Kode Community",
     "description": "A website for the Kode Community.",
     "demoLink": "https://kode-community.vercel.app/",
