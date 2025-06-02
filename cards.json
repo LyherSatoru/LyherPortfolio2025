@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Telegram",
+    "text": "Join our Telegram channel for updates!",
+    "link": "https://t.me/example",
+    "icon": "assets/img/icon/telegram.svg",
+    "shadowColor": "rgba(0, 123, 255, 0.6)"
+  },
+  {
+    "title": "YouTube",
+    "text": "Watch our latest videos!",
+    "link": "https://youtube.com/example",
+    "icon": "assets/img/icon/youtube.svg",
+    "shadowColor": "rgba(255, 0, 0, 0.6)"
+  },
+  {
+    "title": "Facebook",
+    "text": "Connect with us on Facebook!",
+    "link": "https://facebook.com/example",
+    "icon": "assets/img/icon/facebook.svg",
+    "shadowColor": "rgba(59, 89, 152, 0.6)"
+  }
+]

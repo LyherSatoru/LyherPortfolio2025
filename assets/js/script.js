@@ -53,13 +53,11 @@ $(function () {
     }
   }
   typeText();
-  let currentType = "Project";
-  let currentCategory = "all";
-  let portfolioData = [];
 
   let currentMainCategory = "project";
   let currentSubCategory = "all";
   let allData = [];
+  let visibleCount = 3; // Number of items to show initially and per click
 
   function updateSubCategoryDropdown(data) {
     const subCategories = new Set();
@@ -81,13 +79,14 @@ $(function () {
     $.getJSON("portfolio.json", function (data) {
       allData = data;
       updateSubCategoryDropdown(data);
-      renderPortfolioItems();
+      renderPortfolioItems(true);
     }).fail(() => {
       console.error("Failed to load portfolio.json");
     });
   }
 
-  function renderPortfolioItems() {
+  function renderPortfolioItems(reset = false) {
+    if (reset) visibleCount = 3;
     $("#portfolioContainer").empty();
 
     const filtered = allData.filter((item) => {
@@ -102,10 +101,12 @@ $(function () {
       $("#portfolioContainer").append(
         `<div class="col-12 text-center text-light">No items found.</div>`
       );
+      $("#showMoreBtn").remove(); // Remove button if present
       return;
     }
 
-    filtered.forEach((item) => {
+    // Show only up to visibleCount items
+    filtered.slice(0, visibleCount).forEach((item) => {
       const demoLinkHtml = item.demoLink
         ? `<a href="${item.demoLink}" target="_blank" rel="noopener" class="card-of-portfolio-demo">
         Live Demo  <i class="bi bi-box-arrow-up-right ps-1"></i>
@@ -129,6 +130,19 @@ $(function () {
       </div>
     `);
     });
+
+    // Show or hide the "Show More" button
+    if (filtered.length > visibleCount) {
+      if ($("#showMoreBtn").length === 0) {
+        $("#portfolioContainer").after(`
+          <div class="text-center mt-3">
+            <button id="showMoreBtn" class="btn btn-primary">Show More</button>
+          </div>
+        `);
+      }
+    } else {
+      $("#showMoreBtn").remove();
+    }
   }
 
   // Event listeners
@@ -140,15 +154,84 @@ $(function () {
       currentMainCategory = $(this).data("main");
       currentSubCategory = "all";
       updateSubCategoryDropdown(allData);
-      renderPortfolioItems();
+      renderPortfolioItems(true);
     });
 
     // Subcategory Dropdown Change
     $("#subCategorySelect").on("change", function () {
       currentSubCategory = $(this).val();
+      renderPortfolioItems(true);
+    });
+
+    // Show More button click
+    $(document).on("click", "#showMoreBtn", function () {
+      visibleCount += 3;
       renderPortfolioItems();
     });
 
     loadPortfolioData(); // initial load
   });
+
+// ================== nav active ==================
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".navbar-nav li a");
+
+  window.addEventListener("scroll", () => {
+    let currentSectionId = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 100; // adjust for your header height
+      const sectionHeight = section.offsetHeight;
+
+      if (
+        window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight
+      ) {
+        currentSectionId = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + currentSectionId) {
+        link.classList.add("active");
+      }
+    });
+  });
 });
+
+// ==============
+fetch("cards.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const container = document.getElementById("contactCardsContainer");
+
+    data.forEach((card) => {
+      const col = document.createElement("div");
+      col.className = "col-12 col-sm-6 col-lg-3 mb-4 d-flex"; // add d-flex for flexbox
+
+      col.innerHTML = `
+        <a href="${card.link}" class="nav-link w-100" target="_blank" style="height:100%;">
+          <div class="card contact-card h-100 d-flex flex-column justify-content-between">
+            <div class="card-body text-center d-flex flex-column align-items-center">
+              <img src="${card.icon}" class="icon-img mb-3 mx-auto d-block" alt="${card.title}" data-shadow-color="${card.shadowColor || '#00f6ff'}">
+              <h5 class="card-title text-gradient">${card.title}</h5>
+              <p class="card-text text-light flex-grow-1">${card.text}</p>
+            </div>
+          </div>
+        </a>
+      `;
+
+      container.appendChild(col);
+    });
+
+    // Apply glowing effect to images using shadowColor from data
+    document.querySelectorAll('.contact-card img').forEach(img => {
+      const shadowColor = img.getAttribute('data-shadow-color') || '#00f6ff';
+      img.style.filter = `drop-shadow(0 4px 16px ${shadowColor})`;
+    });
+  })
+  .catch((error) => console.error("Error loading cards.json:", error));
+    
+  });

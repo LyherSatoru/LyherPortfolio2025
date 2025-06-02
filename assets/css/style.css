@@ -100,9 +100,12 @@ body::before {
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.3s ease;
 }
-.navbar-nav li a:hover {
+.navbar-nav li a:hover,
+.navbar-nav li a.active {
   border-bottom: 2px solid var(--tertiary-color);
+  color: var(--tertiary-color) !important;
 }
+
 .lyher-text {
   width: 100%;
   max-width: 500px;

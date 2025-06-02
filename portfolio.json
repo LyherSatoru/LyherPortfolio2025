@@ -17,6 +17,24 @@
     "demoLink": "https://lyher99.github.io/Khla-Khlouk-Game/",
     "detailLink": "https://github.com/Lyher99/Khla-Khlouk-Game"
   },
+    {
+    "mainCategory": "project",
+    "subCategory": "game",
+    "image": "assets/img/project/p3.png",
+    "title": "Khmer Card Match Game",
+    "description": "A fun card matching game with Khmer themes.",
+    "demoLink": "https://lyher99.github.io/Khmer-Card-Match/",
+    "detailLink": "https://github.com/Lyher99/Khmer-Card-Match"
+  },
+      {
+    "mainCategory": "project",
+    "subCategory": "web",
+    "image": "assets/img/project/p4.png",
+    "title": "Beltie Edu",
+    "description": "An educational platform for learning and resources.",
+    "demoLink": "https://belteiedu.netlify.app/",
+    "detailLink": ""
+  },
   {
     "mainCategory": "certification",
     "subCategory": "web",
