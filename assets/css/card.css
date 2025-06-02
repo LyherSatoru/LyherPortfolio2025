@@ -37,3 +37,10 @@
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.85);
 }
+
+.card-hover {
+    transition: transform 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-20px);
+}

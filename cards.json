@@ -2,22 +2,65 @@
   {
     "title": "Telegram",
     "text": "Join our Telegram channel for updates!",
-    "link": "https://t.me/example",
+    "link": "https://t.me/lyheryt",
     "icon": "assets/img/icon/telegram.svg",
     "shadowColor": "rgba(0, 123, 255, 0.6)"
   },
   {
     "title": "YouTube",
     "text": "Watch our latest videos!",
-    "link": "https://youtube.com/example",
+    "link": "https://www.youtube.com/@lyherpongtea",
     "icon": "assets/img/icon/youtube.svg",
     "shadowColor": "rgba(255, 0, 0, 0.6)"
   },
   {
     "title": "Facebook",
     "text": "Connect with us on Facebook!",
-    "link": "https://facebook.com/example",
+    "link": "https://web.facebook.com/nikolalyher168/",
     "icon": "assets/img/icon/facebook.svg",
     "shadowColor": "rgba(59, 89, 152, 0.6)"
+  },
+  {
+    "title": "X (Twitter)",
+    "text": "Follow us on X for updates!",
+    "link": "https://x.com/NikolaLyher",
+    "icon": "assets/img/icon/x.svg",
+    "shadowColor": "rgba(40, 44, 52, 0.6)"
+  },
+  {
+    "title": "GitHub",
+    "text": "Check out our GitHub repositories!",
+    "link": "https://github.com/Lyher99",
+    "icon": "assets/img/icon/github.svg",
+    "shadowColor": "rgba(40, 44, 52, 0.6)"
+  },
+  {
+    "title": "LinkedIn",
+    "text": "Connect with us on LinkedIn!",
+    "link": "www.linkedin.com/in/hong-lyher-79b794293",
+    "icon": "assets/img/icon/linkedin.svg",
+    "shadowColor": "rgba(0, 119, 181, 0.6)"
+  },
+  {
+    "title": "Instagram",
+    "text": "Follow us on Instagram for updates!",
+    "link": "https://www.instagram.com/nikolalyher?igsh=MXE0dGljbjIyZnVldA%3D%3D&utm_source=qr",
+    "icon": "assets/img/icon/instagram.svg",
+    "shadowColor": "rgba(225, 48, 108, 0.6)"
+  },
+
+  {
+    "title": "Discord",
+    "text": "Join our Discord server for discussions!",
+    "link": "https://discord.gg/9bkHktBdwn",
+    "icon": "assets/img/icon/discord.svg",
+    "shadowColor": "rgba(88, 101, 242, 0.6)"
+  },
+  {
+    "title": "TikTok",
+    "text": "Follow us on TikTok for fun videos!",
+    "link": "https://www.tiktok.com/@lyher.satoru?_t=ZS-8wrPrDpRH5M&_r=1",
+    "icon": "assets/img/icon/tiktok.svg",
+    "shadowColor": "rgba(40, 44, 52, 0.6)"
   }
 ]

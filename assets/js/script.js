@@ -120,7 +120,7 @@ $(function () {
         : "";
 
       $("#portfolioContainer").append(`
-      <div class="col-12 col-md-6 col-lg-4 py-3" data-aos="fade-up" data-aos-duration="1000">
+      <div class="col-12 col-md-6 col-lg-4 py-3 card-hover" data-aos="fade-up" data-aos-duration="1000">
         <div class="portfolio-item p-3 h-100">
           <img src="${item.image}" class="img-fluid rounded" alt="${item.title}">
           <h4 class="pt-2 text-light">${item.title}</h4>
