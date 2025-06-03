@@ -92,16 +92,16 @@
   {
     "mainCategory": "certification",
     "subCategory": "web",
-    "image": "assets/img/cert/cert1.png",
-    "title": "Web Development Cert",
-    "description": "Certified in web dev.",
+    "image": "assets/img/cert/cert1.webp",
+    "title": "AI & Excel Mastery with Udemy",
+    "description": "Enhance your career with our 2-hour Udemy course, \"Combining AI and Excel for Exceptional Professional Outcomes,\" led by Matthieu Bout and Joppe Balet. Completed by Hong Lyher on March 3, 2025. Enroll now!",
     "demoLink": "",
     "detailLink": ""
   },
   {
     "mainCategory": "skill",
     "subCategory": "coding",
-    "image": "assets/img/skills/html.jpg",
+    "image": "assets/img/skills/html.webp",
     "title": "HTML",
     "description": "HyperText Markup Language for structuring web content.",
     "demoLink": "",
@@ -110,7 +110,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "coding",
-    "image": "assets/img/skills/css.jpg",
+    "image": "assets/img/skills/css.webp",
     "title": "CSS",
     "description": "Cascading Style Sheets for styling web pages.",
     "demoLink": "",
@@ -146,7 +146,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "coding",
-    "image": "assets/img/skills/react.png",
+    "image": "assets/img/skills/react.webp",
     "title": "React JS",
     "description": "JavaScript library for building UI components.",
     "demoLink": "",
@@ -155,7 +155,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "coding",
-    "image": "assets/img/skills/csharp.jpg",
+    "image": "assets/img/skills/csharp.webp",
     "title": "C#",
     "description": "Microsoft's modern object-oriented language.",
     "demoLink": "",
@@ -164,7 +164,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "coding",
-    "image": "assets/img/skills/cpp.png",
+    "image": "assets/img/skills/cpp.webp",
     "title": "C++",
     "description": "General-purpose programming language with OOP features.",
     "demoLink": "",
@@ -173,7 +173,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "coding",
-    "image": "assets/img/skills/python.png",
+    "image": "assets/img/skills/python.webp",
     "title": "Python",
     "description": "Versatile language used in web, AI, and scripting.",
     "demoLink": "",
@@ -191,7 +191,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "video",
-    "image": "assets/img/skills/capcut.png",
+    "image": "assets/img/skills/capcut.webp",
     "title": "CapCut",
     "description": "Video editing software for creators.",
     "demoLink": "",
@@ -200,7 +200,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "design",
-    "image": "assets/img/skills/posterdesign.jpg",
+    "image": "assets/img/skills/posterdesign.webp",
     "title": "Poster Design",
     "description": "Creating eye-catching posters for marketing or events.",
     "demoLink": "",
@@ -209,7 +209,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "design",
-    "image": "assets/img/skills/banner.jpg",
+    "image": "assets/img/skills/banner.webp",
     "title": "Banner Design",
     "description": "Designing promotional banners for web or print.",
     "demoLink": "",
@@ -218,7 +218,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "coding",
-    "image": "assets/img/skills/node.jpg",
+    "image": "assets/img/skills/node.webp",
     "title": "Node.js",
     "description": "JavaScript runtime for backend development.",
     "demoLink": "",
@@ -227,7 +227,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "system",
-    "image": "assets/img/skills/cpanel.png",
+    "image": "assets/img/skills/cpanel.webp",
     "title": "cPanel",
     "description": "Web hosting control panel for managing servers.",
     "demoLink": "",
@@ -236,7 +236,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "system",
-    "image": "assets/img/skills/ubuntu.png",
+    "image": "assets/img/skills/ubuntu.webp",
     "title": "Ubuntu",
     "description": "Open-source Linux OS for development and deployment.",
     "demoLink": "",
@@ -245,7 +245,7 @@
   {
     "mainCategory": "skill",
     "subCategory": "video",
-    "image": "assets/img/skills/video-editor.jpg",
+    "image": "assets/img/skills/video-editor.webp",
     "title": "Video Editing",
     "description": "Creating and editing professional-quality videos.",
     "demoLink": "",
