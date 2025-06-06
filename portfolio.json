@@ -17,7 +17,7 @@
     "demoLink": "https://lyher99.github.io/Khla-Khlouk-Game/",
     "detailLink": "https://github.com/Lyher99/Khla-Khlouk-Game"
   },
-    {
+  {
     "mainCategory": "project",
     "subCategory": "game",
     "image": "assets/img/project/p3.webp",
@@ -26,7 +26,7 @@
     "demoLink": "https://lyher99.github.io/Khmer-Card-Match/",
     "detailLink": "https://github.com/Lyher99/Khmer-Card-Match"
   },
-      {
+  {
     "mainCategory": "project",
     "subCategory": "web",
     "image": "assets/img/project/p4.webp",
@@ -35,7 +35,7 @@
     "demoLink": "https://belteiedu.netlify.app/",
     "detailLink": ""
   },
-        {
+  {
     "mainCategory": "project",
     "subCategory": "web",
     "image": "assets/img/project/p5.webp",
@@ -44,7 +44,7 @@
     "demoLink": "https://yutu-web.vercel.app/",
     "detailLink": "https://github.com/Lyher99/yutu_web.git"
   },
-          {
+  {
     "mainCategory": "project",
     "subCategory": "web",
     "image": "assets/img/project/p6.webp",
@@ -53,7 +53,7 @@
     "demoLink": "https://angkormc.netlify.app/",
     "detailLink": ""
   },
-            {
+  {
     "mainCategory": "project",
     "subCategory": "web",
     "image": "assets/img/project/p7.webp",
@@ -62,7 +62,7 @@
     "demoLink": "https://friendlymc.netlify.app/",
     "detailLink": ""
   },
-            {
+  {
     "mainCategory": "project",
     "subCategory": "web",
     "image": "assets/img/project/p8.webp",
@@ -71,7 +71,7 @@
     "demoLink": "https://linunhappy.netlify.app/",
     "detailLink": ""
   },
-            {
+  {
     "mainCategory": "project",
     "subCategory": "web",
     "image": "assets/img/project/p9.webp",
@@ -80,7 +80,7 @@
     "demoLink": "https://server-pongtea.vercel.app/",
     "detailLink": ""
   },
-            {
+  {
     "mainCategory": "project",
     "subCategory": "web",
     "image": "assets/img/project/p10.webp",
@@ -249,6 +249,448 @@
     "title": "Video Editing",
     "description": "Creating and editing professional-quality videos.",
     "demoLink": "",
+    "detailLink": ""
+  },
+
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D1.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D1.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D2.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D2.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D3.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D3.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D4.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D4.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D5.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D5.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D6.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D6.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D7.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D7.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D8.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D8.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D9.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D9.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D10.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D10.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D11.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D11.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D12.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D12.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D13.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D13.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D14.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D14.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D15.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D15.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D16.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D16.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D17.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D17.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D18.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D18.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D19.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D19.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D20.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D20.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D21.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D21.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D22.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D22.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D23.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D23.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D24.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D24.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D25.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D25.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D26.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D26.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D27.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D27.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D28.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D28.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D29.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D29.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D30.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D30.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D31.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D31.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D32.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D32.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D33.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D33.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D34.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D34.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D35.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D35.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D36.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D36.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D37.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D37.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D38.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D38.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D39.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D39.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D40.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D40.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D41.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D41.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D42.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D42.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D43.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D43.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D44.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D44.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D45.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D45.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D46.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D46.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D47.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D47.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D48.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D48.webp",
+    "detailLink": ""
+  },
+  {
+    "mainCategory": "project",
+    "subCategory": "Graphic Design",
+    "image": "assets/img/project/design/D49.webp",
+    "title": "Graphic Design",
+    "description": "Creative graphic design work.",
+    "demoLink": "assets/img/project/design/D49.webp",
     "detailLink": ""
   }
 ]
